@@ -1,0 +1,55 @@
+{
+  "peerOrganizations": {
+    "ca": {
+      "CN": "ca.org1.example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    },
+    "peer0": {
+      "CN": "peer0.org1.example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    },
+    "Admin": {
+      "CN": "Admin@org1.org1.example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    },
+    "User": {
+      "CN": "User@org1.org1.example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    }
+  },
+  "orderer": {
+    "ca": {
+      "CN": "ca.example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    },
+    "orderer": {
+      "CN": "orderer.example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    },
+    "Admin": {
+      "CN": "Admin@example.com",
+      "C": "US",
+      "ST": "California",
+      "L": "San Frnsisco",
+      "O": "org1.example.com"
+    }
+  }
+}
