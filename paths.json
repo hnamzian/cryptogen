@@ -1,0 +1,113 @@
+{
+  "peerOrganizations": {
+    "ca": {
+      "key": {
+        "name": "4239aa0dcd76daeeb8ba0cda701851d14504d31aad1b2ddddbac6a57365e497c_sk",
+        "paths": ["crypto-config/peerOrganizations/org1.example.com/ca/"]
+      },
+      "cert": {
+        "name": "ca.org1.example.com-cert.pem",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/ca/",
+          "crypto-config/peerOrganizations/org1.example.com/msp/cacerts/",
+          "crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts/",
+          "crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/cacerts/",
+          "crypto-config/peerOrganizations/org1.example.com/users/User@org1.example.com/msp/cacerts/"
+        ]
+      }
+    },
+    "peer0": {
+      "key": {
+        "name": "46be1d569fe68f33e517c9e0072a0ccfbfb42727480fb8c8d0223af321a7893d_sk",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/keystore/"
+        ]
+      },
+      "cert": {
+        "name": "peer0.org1.example.com-cert.pem",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts/"
+        ]
+      }
+    },
+    "Admin": {
+      "key": {
+        "name": "cd96d5260ad4757551ed4a5a991e62130f8008a0bf996e4e4b84cd097a747fec_sk",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/"
+        ]
+      },
+      "cert": {
+        "name": "Admin@org1.example.com-cert.pem",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/",
+          "crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/admincerts/",
+          "crypto-config/peerOrganizations/org1.example.com/users/User@org1.example.com/msp/admincerts/",
+          "crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/admincerts/",
+          "crypto-config/peerOrganizations/org1.example.com/msp/admincerts/"
+        ]
+      }
+    },
+    "User": {
+      "key": {
+        "name": "c75bd6911aca808941c3557ee7c97e90f3952e379497dc55eb903f31b50abc83_sk",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/users/User@org1.example.com/msp/keystore/"
+        ]
+      },
+      "cert": {
+        "name": "User@org1.example.com-cert.pem",
+        "paths": [
+          "crypto-config/peerOrganizations/org1.example.com/users/User@org1.example.com/msp/signcerts/"
+        ]
+      }
+    }
+  },
+  "ordererOrganizations": {
+    "ca": {
+      "key": {
+        "name": "a0606a4a860a1e31c90a23788da6f3b6b74925ed0d23061af4899409ba46ae6a_sk",
+        "paths": ["crypto-config/ordererOrganizations/example.com/ca/"]
+      },
+      "cert": {
+        "name": "ca.example.com-cert.pem",
+        "paths": [
+          "crypto-config/ordererOrganizations/example.com/ca/",
+          "crypto-config/ordererOrganizations/example.com/msp/cacerts/",
+          "crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/cacerts/",
+          "crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/cacerts/"
+        ]
+      }
+    },
+    "orderer": {
+      "key": {
+        "name": "4d2f776c0fef8eac3f460a7c3558dc7859c4fe458e262e674a6c23f242ea33d1_sk",
+        "paths": [
+          "crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/keystore/"
+        ]
+      },
+      "cert": {
+        "name": "orderer.example.com-cert.pem",
+        "paths": [
+          "crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/signcerts/"
+        ]
+      }
+    },
+    "Admin": {
+      "key": {
+        "name": "1deeab5433fa6e5f045eb763109d6165268fba153211af1281f00d45f54b1022_sk",
+        "paths": [
+          "crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore/"
+        ]
+      },
+      "cert": {
+        "name": "Admin@example.com-cert.pem",
+        "paths": [
+          "crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/signcerts/",
+          "crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp/admincerts/",
+          "crypto-config/ordererOrganizations/example.com/msp/admincerts/"
+        ]
+      }
+    }
+  }
+}
