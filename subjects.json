@@ -22,7 +22,7 @@
       "O": "org1.example.com"
     },
     "User": {
-      "CN": "User@org1.org1.example.com",
+      "CN": "User1@org1.org1.example.com",
       "C": "US",
       "ST": "California",
       "L": "San Frnsisco",
@@ -35,21 +35,21 @@
       "C": "US",
       "ST": "California",
       "L": "San Frnsisco",
-      "O": "org1.example.com"
+      "O": "example.com"
     },
     "orderer": {
       "CN": "orderer.example.com",
       "C": "US",
       "ST": "California",
       "L": "San Frnsisco",
-      "O": "org1.example.com"
+      "O": "example.com"
     },
     "Admin": {
       "CN": "Admin@example.com",
       "C": "US",
       "ST": "California",
       "L": "San Frnsisco",
-      "O": "org1.example.com"
+      "O": "example.com"
     }
   }
 }

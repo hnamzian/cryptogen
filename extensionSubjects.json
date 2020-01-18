@@ -1,0 +1,114 @@
+{
+  "peerOrganizations": {
+    "ca": [
+      {
+        "name": "basicConstraints",
+        "cA": true,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "keyAgreement": true,
+        "digitalSignature": true,
+        "nonRepudiation": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ],
+    "peer0": [
+      {
+        "name": "basicConstraints",
+        "cA": false,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "digitalSignature": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ],
+    "Admin": [
+      {
+        "name": "basicConstraints",
+        "cA": false,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "digitalSignature": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ],
+    "User": [
+      {
+        "name": "basicConstraints",
+        "cA": false,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "digitalSignature": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ]
+  },
+  "ordererOrganizations": {
+    "ca": [
+      {
+        "name": "basicConstraints",
+        "cA": true,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "keyAgreement": true,
+        "digitalSignature": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ],
+    "orderer": [
+      {
+        "name": "basicConstraints",
+        "cA": false,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "digitalSignature": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ],
+    "Admin": [
+      {
+        "name": "basicConstraints",
+        "cA": false,
+        "critical": true
+      },
+      {
+        "name": "keyUsage",
+        "digitalSignature": true,
+        "critical": true
+      },
+      {
+        "name": "subjectKeyIdentifier"
+      }
+    ]
+  }
+}
