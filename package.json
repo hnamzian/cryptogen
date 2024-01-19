@@ -15,7 +15,7 @@
   "dependencies": {
     "@ghaiklor/x509": "^1.0.0",
     "fs-extra": "^8.1.0",
-    "jsrsasign": "^8.0.12",
+    "jsrsasign": "^11.0.0",
     "node-forge": "^0.9.1"
   }
 }
